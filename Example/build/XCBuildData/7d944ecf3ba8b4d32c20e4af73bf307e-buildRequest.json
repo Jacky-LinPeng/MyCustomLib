@@ -1,0 +1,66 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e7753a735b3dbcb86fa532787dbbe741ba1"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e7788ce35c19e792278ef1a34eae39f7597"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e779db90dda3c68326915332fbcb5e4cb82"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e7721ded137e13bbb9a6e2b86de32ed2bd2"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e77e7b390481eed36e82336f0f81154713e"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e77840e805a6caaf4c5ea44c167b292cd28"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e77a4dd9e89a615a0d37d468735c3264001"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e77535fb018a60bdfbd4fc059dd797f6dad"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e773dceff9d379134be70fd7ce403ae8eed"
+    },
+    {
+      "guid" : "61d94ec1624869ec144ffed401971e7731f144bdd42c9d82bfbbe5c1325cb70b"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/mac/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mac/Library/Developer/Xcode/DerivedData/Pods-cvxadzbxxsoglgapiuiwoaciezkp/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mac/Library/Developer/Xcode/DerivedData/Pods-cvxadzbxxsoglgapiuiwoaciezkp/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

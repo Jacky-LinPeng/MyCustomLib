@@ -1,0 +1,48 @@
+{
+  "name": "MyCustomLib",
+  "version": "0.1.0",
+  "summary": "A short description of MyCustomLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/linpeng/MyCustomLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "linpeng": "linpeng@xunlei.com"
+  },
+  "source": {
+    "git": "https://github.com/Jacky-LinPeng/MyCustomLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MyCustomLib/Classes/**/*",
+  "static_framework": true,
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "resource_bundles": {
+    "MyCustomLib": [
+      "MyCustomLib/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

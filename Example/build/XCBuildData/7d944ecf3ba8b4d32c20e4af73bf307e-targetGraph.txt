@@ -1,0 +1,25 @@
+Target dependency graph (10 targets)
+AFNetworking in Pods
+Expecta in Pods
+FBSnapshotTestCase in Pods
+Specta in Pods
+Expecta+Snapshots in Pods, depends on:
+Expecta in Pods (explicit)
+FBSnapshotTestCase in Pods (explicit)
+Specta in Pods (explicit)
+MBProgressHUD in Pods
+MyCustomLib-MyCustomLib in Pods
+MyCustomLib in Pods, depends on:
+AFNetworking in Pods (explicit)
+MBProgressHUD in Pods (explicit)
+MyCustomLib-MyCustomLib in Pods (explicit)
+Pods-MyCustomLib_Example in Pods, depends on:
+AFNetworking in Pods (explicit)
+MBProgressHUD in Pods (explicit)
+MyCustomLib in Pods (explicit)
+Pods-MyCustomLib_Tests in Pods, depends on:
+Expecta in Pods (explicit)
+Expecta+Snapshots in Pods (explicit)
+FBSnapshotTestCase in Pods (explicit)
+Pods-MyCustomLib_Example in Pods (explicit)
+Specta in Pods (explicit)
