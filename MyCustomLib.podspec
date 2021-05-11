@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MyCustomLib/Classes/**/*'
+  #s.source_files = 'MyCustomLib/Classes/**/*'
   
   s.static_framework = true
   s.swift_version = '5.0'
